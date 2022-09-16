@@ -17,17 +17,19 @@ iframe{
 }
 div.backbox{
 	position: absolute;
-	transform: translate(-50%, -50%);
-	top: 50%;
+	transform: translate(-50%,-50%);
+	top: 5px;
 	left: 50%;
-	border-radius: 50px;
+	border-radius: 1px;
 	z-index: 300;
 }
 .Back{
 	position: relative;
-	padding:1rem 4rem;
+	padding-top: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	border-radius: 10rem;
-	background-color:white;
+	background-color:rgb(255, 255, 255);
 	outline: none;
 	font-size: medium;
 	border: none;
